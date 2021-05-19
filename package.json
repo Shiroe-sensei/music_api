@@ -1,0 +1,17 @@
+{
+  "name": "musicapi",
+  "version": "1.0.0",
+  "description": "xd",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
