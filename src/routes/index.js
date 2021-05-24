@@ -1,9 +1,13 @@
 const { Router } = require('express');
 const router = Router();
 
-const { getArtista, welcome } = require('../controllers/index.controller');
+const { getMusic, welcome, getArtist, getAlbum, getSong, getDiscografia } = require('../controllers/controller.js');
 
 router.get('/', welcome );
-router.get('/artista', getArtista);
+router.get('/music', getMusic);
+router.get('/artist', getArtist);
+router.get('/album', getAlbum);
+router.get('/song', getSong);
+router.get('/discografia', getDiscografia);
 
 module.exports = router;
